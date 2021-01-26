@@ -36,7 +36,7 @@ export default function Home() {
           <Widget.Content>
             <h1>Quizes sobre a Disney</h1>
 
-            <p>lorem ipsum dolor sit amet...</p>
+            <p>aqui será um quiz sobre a Disney</p>
           </Widget.Content>
         </Widget>
         <Footer />
