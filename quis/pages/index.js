@@ -28,13 +28,13 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>AluraQuiz - Modelo Base</title>
+        <title>Disney Modelo Base</title>
       </Head>
       <QuizContainer>
         <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>The legend of zelda</h1>
+            <h1>Sobre a Disney</h1>
           </Widget.Header>
           <Widget.Content>
             <form onSubmit={function (infosDoEvento) {
@@ -52,9 +52,11 @@ export default function Home() {
                 }}
                 placeholder="Seu nome"
               />
-              <button type="submit" disabled={name.length === 0}>
+              <button type="submit" disabled={name.length === 0}>               
                 Jogar {name}
-              </button>
+              </button>            
+
+
             </form>
           </Widget.Content>
         </Widget>
