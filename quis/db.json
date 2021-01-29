@@ -1,30 +1,57 @@
 { 
-  "bg": "https://raw.githubusercontent.com/ReisAline/ReactQuiz/master/quis/_docs/Disney.jpg",
+  "bg": "https://raw.githubusercontent.com/ReisAline/ReactQuiz/master/quis/_docs/Disney.jpg",  
   "title": "Quiz Disney",
   "description": "Teste os seus conhecimentos sobre a Disney.",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
+      "image": "https://raw.githubusercontent.com/ReisAline/ReactQuiz/master/quis/_docs/Valente.jpg",
+      "title": "A imagem é de qual filme?",
+      "description": "Filmes da disney",
+      "answer": 1,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Aladin",
+        "Valente",
+        "Moana",
+        "Carros"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
-      "answer": 0,
+      "image": "https://raw.githubusercontent.com/ReisAline/ReactQuiz/master/quis/_docs/Carros1.jpg",
+      "title": "A imagem é de qual filme?",
+      "description": "Filmes da disney",
+      "answer": 3,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+        "Aladin",
+        "Aviões",
+        "Carros 2",
+        "Carros"
+      ]
+    },
+    {
+      "image": "https://github.com/ReisAline/ReactQuiz/blob/master/quis/_docs/ratatouille.jpg?raw=true",
+      "title": "A imagem é de qual filme?",
+      "description": "Filmes da disney",
+      "answer": 2,
+      "alternatives": [
+        "Aladin",
+        "Valente",
+        "Ratatouille",
+        "Carros"
+      ]
+    },
+    {
+      "image": "https://github.com/ReisAline/ReactQuiz/blob/master/quis/_docs/wall-e.jpg?raw=true",
+      "title": "A imagem é de qual filme?",
+      "description": "Filmes da disney",
+      "answer": 1,
+      "alternatives": [
+        "Moana",
+        "wall-e",
+        "Ratatouille",
+        "Carros"
       ]
     }
+
   ],
   "external": [
     ""
